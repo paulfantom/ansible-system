@@ -1,0 +1,6 @@
+---
+system_hostname: "{{ inventory_hostname }}"
+
+system_mountpoints: []
+
+system_earlyoom_params: "-r 60"

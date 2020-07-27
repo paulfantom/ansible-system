@@ -1,0 +1,16 @@
+---
+os: linux
+dist: xenial
+language: python
+python:
+  - 3.7
+cache: pip
+services:
+  - docker
+install:
+  - pip3 install ansible
+branches:
+  only:
+    - master
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
