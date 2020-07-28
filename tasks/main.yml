@@ -38,5 +38,6 @@
     - "net.ipv6.conf.{{ ansible_default_ipv4.interface }}.disable_ipv6"
 
 - import_tasks: earlyoom.yml
+  when: system_earlyoom_enabled
 
 - meta: flush_handlers

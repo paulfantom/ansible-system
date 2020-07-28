@@ -8,4 +8,3 @@ system_packages:
   - haveged
   - libffi-dev
   - libssl-dev
-  - earlyoom

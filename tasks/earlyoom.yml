@@ -1,4 +1,9 @@
 ---
+- name: add earlyoom package
+  package:
+    state: present
+    name: "earlyoom"
+
 - name: Set earlyoom configuration
   template:
     src: earlyoom.j2
