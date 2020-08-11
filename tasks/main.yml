@@ -18,7 +18,7 @@
 - name: add packages
   package:
     state: present
-    name: "{{ system_packages }}"
+    name: "{{ system_packages + __system_packages }}"
 
 - name: Set default editor
   alternatives:

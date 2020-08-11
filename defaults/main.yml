@@ -3,5 +3,7 @@ system_hostname: "{{ inventory_hostname }}"
 
 system_mountpoints: []
 
+system_packages: []
+
 system_earlyoom_enabled: true
 system_earlyoom_params: "-r 60"
